@@ -1,8 +1,12 @@
-import static org.junit.Assert.*;
+package Practica;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class OperadorAritmeticoTest {
+class OperadorAritmeticoTest2 {
 
 	@Test
 	public void suma() {
@@ -33,9 +37,10 @@ public class OperadorAritmeticoTest {
 		try {
 			division = OperadorAritmetico.division(a, b);
 			fail("Debería haber entrado al catch");
-			}
-		catch (Exception e) {
+		}catch (Exception e) {
 			assertTrue(true);
 		}
 	}
+	
+
 }

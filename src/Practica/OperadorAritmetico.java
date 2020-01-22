@@ -1,3 +1,4 @@
+package Practica;
 
 public class OperadorAritmetico
 {
