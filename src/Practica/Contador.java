@@ -22,4 +22,4 @@ public class Contador {
         entrada.close();
         return c;
     }
-}
+}	
