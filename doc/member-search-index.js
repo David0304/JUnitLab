@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Practica","c":"Subscripcion","l":"cancel()"},{"p":"Practica","c":"Subscripcion","l":"precioPorMes()"},{"p":"Practica","c":"Subscripcion","l":"Subscripcion(int, int)","url":"%3Cinit%3E(int,int)"}]
